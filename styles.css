@@ -3,7 +3,28 @@
     font-weight: bolder;
 }
 
+#screen{
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 32px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(225, 225, 195);
+}
+
+#Login{
+    margin: 0px;
+    padding: 16px;
+    background-color: aliceblue;
+    width: auto;
+    height: 350px;
+}
+
+
 #keyboard{
+    margin: auto;
     display: flex;
     width: 520px;
     background-color: rgb(225, 225, 195);
@@ -20,7 +41,7 @@
 .number{
     display: flex;
     border-style: groove;
-    height: 80px;
+    height: 50px;
     width: auto;
     align-items: center;
     justify-content: center;
@@ -40,10 +61,23 @@
 .options{
     display: flex;
     border-style: groove;
-    height: 80px;
+    height: 50px;
     width: 120px;
     align-items: center;
     justify-content: center;
     margin-bottom: 16px;
     background-color: rgb(184, 184, 154);
+    text-transform: uppercase;
+}
+
+#clean{
+    background-color: rgb(232, 232, 79);
+}
+
+#cancel{
+    background-color: rgb(218, 58, 58);
+}
+
+#ok{
+    background-color: rgb(70, 203, 70);
 }
