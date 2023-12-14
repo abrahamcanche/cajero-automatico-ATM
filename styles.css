@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+
+#keyboard{
+    display: flex;
+    width: 520px;
+    background-color: rgb(225, 225, 195);
+}
+
+#grid{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 400px;
+    gap: 16px;
+}
+
+.number{
+    display: flex;
+    border-style: groove;
+    height: 80px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(184, 184, 154);
+}
+
+#zero{
+    grid-column: -3 / -2;
+}
+
+#buttons{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.options{
+    display: flex;
+    border-style: groove;
+    height: 80px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    background-color: rgb(184, 184, 154);
+}
