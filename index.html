@@ -11,18 +11,20 @@
     <div id="content">
 
         <div id="screen">
-            <form id="Login">
-                <div>
+            <form id="login">
+                <div class="input">
                 <label for="username">Nombre de usuario:</label>
                 <input type="text" id="username" required>
                 </div>
             
-                <div>
-                <label for="password">Contraseña (NIP numérico):</label>
+                <div class="input">
+                <label for="password">NIP (Contraseña):</label>
                 <input type="password" id="password" pattern="[0-9]{4,}" title="La contraseña debe ser un número de al menos 4 dígitos" required>
                 </div>
 
+                <div id="login-button">
                 <button type="button" onclick="validateCredentials()">Iniciar sesión</button>
+                </div>
             </form>
         </div>
 

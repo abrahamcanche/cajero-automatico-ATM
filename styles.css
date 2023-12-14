@@ -14,12 +14,23 @@
     background-color: rgb(225, 225, 195);
 }
 
-#Login{
+#login{
     margin: 0px;
     padding: 16px;
     background-color: aliceblue;
     width: auto;
     height: 350px;
+    /* display: flex; */
+}
+
+.input{
+    margin: 16px;
+}
+
+#login-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
