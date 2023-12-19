@@ -8,6 +8,7 @@
     margin-bottom: 0px;
     padding: 32px;
     width: 520px;
+    height: 414px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +34,28 @@
     justify-content: center;
 }
 
+#menu{
+    margin: 0px;
+    padding: 16px;
+    background-color: aliceblue;
+    width: 410px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ui{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-color: bisque;
+}
 
 #keyboard{
     margin: auto;
