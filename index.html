@@ -6,12 +6,17 @@
     <title>Cajero Automático</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="content">
 
         <div id="screen">
-            <form id="login">
+
+            <!-- <form id="login">
                 <div class="input">
                 <label for="username">Nombre de usuario:</label>
                 <input type="text" id="username" required>
@@ -25,13 +30,21 @@
                 <div id="login-button">
                 <button type="button" onclick="validateCredentials()">Iniciar sesión</button>
                 </div>
-            </form>
+            </form> -->
 
-            <!-- <div id="menu">
-                <div class="ui">CONSULTAR SALDO</div>
-                <div class="ui">INGRESAR MONTO</div>
-                <div class="ui">RETIRAR MONTO</div>
-            </div> -->
+            <div id="menu">
+                <div id="bank-balance">CONSULTAR SALDO</div>
+                <div class="options">
+                    <p>INGRESAR MONTO</p>
+                    <input type= "number" maxlength="4">
+                    <button class="check"><i class="fa fa-check" style="font-size:24px"></i></i></button>
+                </div>
+                <div class="options">
+                    <p>RETIRAR MONTO</p>
+                    <input type= "number" maxlength="4">
+                    <button class="check"><i class="fa fa-check" style="font-size:24px"></i></button>
+                </div>
+            </div>
 
         </div>
 
@@ -49,9 +62,9 @@
                 <div class="number" id="zero">0</div>
             </section>
             <section id="buttons">
-                <div class="options" id="clean">BORRAR</div>
-                <div class="options" id="cancel">CANCELAR</div>
-                <div class="options" id="ok">ACEPTAR</div>
+                <div class="options-buttons" id="clean">BORRAR</div>
+                <div class="options-buttons" id="cancel">CANCELAR</div>
+                <div class="options-buttons" id="ok">ACEPTAR</div>
             </section>
         </div>
     </div>

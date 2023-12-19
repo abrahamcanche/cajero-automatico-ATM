@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
+    font-size: 16px;
     font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #screen{
@@ -21,7 +25,6 @@
     background-color: aliceblue;
     width: auto;
     height: 350px;
-    /* display: flex; */
 }
 
 .input{
@@ -55,6 +58,41 @@
     margin-bottom: 20px;
     text-transform: uppercase;
     background-color: bisque;
+}
+
+#bank-balance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    margin-bottom: 32px;
+    cursor: pointer;
+    background-color: #EFEFEF;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.options{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    margin-bottom: 32px;
+}
+
+.options p{
+    width: 160px;
+}
+
+.options input{
+    width: 120px;
+}
+
+.check{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 #keyboard{
@@ -92,7 +130,7 @@
     flex-direction: column;
 }
 
-.options{
+.options-buttons{
     display: flex;
     border-style: groove;
     height: 50px;
