@@ -5,6 +5,7 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
 }
 
 #screen{
@@ -23,7 +24,7 @@
     margin: 0px;
     padding: 16px;
     background-color: aliceblue;
-    width: auto;
+    width: 410px;
     height: 350px;
 }
 
@@ -67,10 +68,16 @@
     width: 350px;
     height: 50px;
     margin-bottom: 32px;
-    cursor: pointer;
     background-color: #EFEFEF;
     border-width: 1px;
     border-style: solid;
+}
+
+#bank-balance button{
+    width: 349px;
+    height: 49px;
+    border-style: none;
+    cursor: pointer;
 }
 
 .options{

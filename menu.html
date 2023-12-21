@@ -5,30 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cajero Automático</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="main.js"></script>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <div id="content">
         <div id="screen">
-            <form id="login">
-                <div class="input">
-                <label for="username">Nombre de usuario:</label>
-                <input type="text" id="username" required>
+            <div id="menu">
+                <div id="bank-balance">
+                    <button>CONSULTAR SALDO</button>
                 </div>
-                <div class="input">
-                <label for="password">NIP (Contraseña):</label>
-                <input type="password" id="password" pattern="[0-9]{4,}" maxlength="4" title="La contraseña debe ser un número de al menos 4 dígitos" required>
+                <div class="options">
+                    <p>INGRESAR MONTO</p>
+                    <input type= "number" maxlength="4">
+                    <button class="check"><i class="fa fa-check" style="font-size:24px"></i></i></button>
                 </div>
-                <div id="login-button">
-                <button type="button" onclick="validateCredentials()">Iniciar sesión</button>
+                <div class="options">
+                    <p>RETIRAR MONTO</p>
+                    <input type= "number" maxlength="4">
+                    <button class="check"><i class="fa fa-check" style="font-size:24px"></i></button>
                 </div>
-            </form>
+            </div>
         </div>
-        
         <div id="keyboard">
             <section id="grid">
                 <div class="number">1</div>
